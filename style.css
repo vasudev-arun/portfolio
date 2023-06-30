@@ -1,0 +1,338 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #002F7B;
+    /* Blue */
+    --secondary-color: #AFEB8F;
+    /* Green */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+
+.btn {
+    background-color: #AFEB8F;
+    color: var(--primary-color);
+    border: 1px var(--primary-color) solid;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px var(--secondary-color) solid;
+
+}
+
+
+
+
+/* navbar starts here  */
+
+.navbar {
+    color: var(--primary-color);
+    /* background-color: var(--secondary-color); */
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: var(--primary-color);
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+.nav-link:hover {
+    border: 2px var(--primary-color) solid;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-btn {
+    width: 7rem;
+}
+
+/* navbar ends here  */
+
+
+
+
+/* hero starts here  */
+.hero {
+    background-color: var(--secondary-color);
+    padding: 3rem;
+    width: 100%;
+
+}
+
+.hero-img {
+    border-radius: 100%;
+    width: 31.25rem;
+}
+
+.hero-heading {
+    font-size: 500%;
+    display: flex;
+    color: var(--primary-color);
+}
+
+.hero-subheading {
+    width: 29rem;
+    padding: 0 0 0 1rem;
+    display: flex;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    color: var(--primary-color);
+}
+
+/* hero ends here  */
+
+/* about starts here  */
+.about {
+    background-color: var(--secondary-color);
+    padding: 3rem 3rem 7rem 3rem;
+    margin-top: 2rem;
+}
+
+.about-img {
+    border-radius: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.about-text>h3 {
+    letter-spacing: 2px;
+    line-height: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.about-text>p {
+    margin-top: 2rem;
+    color: var(--primary-color);
+}
+
+/* about ends here  */
+
+/* Edu starts here  */
+.edu {
+    padding:5rem 0;
+    background-color: white;
+
+}
+.edu-heading{
+    letter-spacing: .5rem;
+    color: var(--primary-color);
+}
+
+.edu-card{
+    background-color: var(--primary-color);
+}
+.edu-year{
+    color: white;
+    font-weight: bold;
+}
+.edu-course{
+    color: var(--secondary-color);
+    width: 65%;
+    height: 5rem;
+    
+    font-weight: bold;
+}
+.edu-inst{
+    width: 70%;
+    margin-top: 3rem;
+    color: white;
+    font-weight: 200;
+}
+
+/* Edu Ends here  */
+
+
+/* Skills starts here  */
+#skill {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 6rem 0;
+    width: 100%;
+
+
+}
+.skill-heading>p{
+    margin-top: 3rem;
+}
+.skill-heading>h3{
+    font-size: 4rem;
+}
+
+.p-heading{
+    margin-left:.5rem;
+  }
+
+.p-bg{
+    width:80%;
+    border-radius:20px;
+    background-color: white;
+    
+    
+  }
+  .p-bar{
+    background-color:var(--secondary-color);
+    height:2rem;
+    border-radius:20px;
+    margin:2rem 0;
+  }
+  .p-bar.html-bar{
+    width: 90%;
+  }
+
+  .p-bar.css-bar{
+    width: 85%;
+  }
+
+  .p-bar.bs-bar{
+    width: 80%;
+  }
+
+  .p-bar.js-bar{
+    width: 60%;
+  }
+  
+ 
+
+
+/* Skills Ends here  */
+
+/* reach out Starts here  */
+#reach-out{
+    background-color: var(--primary-color);
+    padding: 2rem 0 5rem 0;
+
+}
+.reach-heading>h2{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.reach-name{
+    margin-bottom: 3.5rem;
+    color: var(--secondary-color);
+}
+.reach-ids{
+    color: white;
+}
+
+.reach-row-2{
+    margin-top: 15rem;
+}
+
+.connect-heading{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.connect-icons{
+    margin-left: 2rem;
+}
+
+.resume-btn{
+    height: 3rem;
+}
+
+.connect-container{
+    width: 20rem;
+    position: relative;
+    left: 10rem;
+}
+.connect-heading>*{
+    font-size: 10px;
+}
+
+
+
+/* reach out Ends here  */
+
+
+
+/* Media query for smaller screens Starts here */
+@media (max-width: 576px) {
+
+    .hero-heading {
+        font-size: 300%;
+        display: flex;
+    }
+
+    .hero-subheading {
+        display: flex;
+        font-size: 100%;
+        width: 15.3rem;
+    }
+
+    .skill-heading>h3{
+        font-size: 2rem;
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+
+    .p-bg{
+        width:80%;
+        border-radius:10px;
+        background-color: white;
+        
+        
+      }
+      .p-bar{
+        background-color:var(--secondary-color);
+        height:1rem;
+        width:50%;
+        border-radius:10px;
+        margin:1rem 0;
+      }
+
+      .reach-heading>h2{
+        font-size: 2rem;
+    }
+
+    .reach-row-2{
+        margin-top: 5rem;
+    }
+
+    .connect-container{
+        width: 20rem;
+        position: relative;
+        left: 0;
+        margin-top: 3rem;
+    }
+
+    .reach-row-2{
+        margin-top: 5rem;
+    }
+
+
+
+}
+
+/* Media query for smaller screens Ends here */
